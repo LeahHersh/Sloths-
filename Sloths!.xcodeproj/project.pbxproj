@@ -15,6 +15,8 @@
 		842A2460242A8B5A00683EC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842A245E242A8B5A00683EC4 /* LaunchScreen.storyboard */; };
 		842A246B242A8B5A00683EC4 /* Sloths_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A246A242A8B5A00683EC4 /* Sloths_Tests.swift */; };
 		842A2476242A8B5B00683EC4 /* Sloths_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A2475242A8B5B00683EC4 /* Sloths_UITests.swift */; };
+		84AD867324336BAA00A7572B /* Sloths! Duplicate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AD867124336BAA00A7572B /* Sloths! Duplicate.storyboard */; };
+		84AD86752433745300A7572B /* transfer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AD86742433745300A7572B /* transfer.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		842A2471242A8B5A00683EC4 /* Sloths!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sloths!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		842A2475242A8B5B00683EC4 /* Sloths_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sloths_UITests.swift; sourceTree = "<group>"; };
 		842A2477242A8B5B00683EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AD867224336BAA00A7572B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Sloths!/Base.lproj/Sloths! Duplicate.storyboard"; sourceTree = "<group>"; };
+		84AD86742433745300A7572B /* transfer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = transfer.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		842A2447242A8B5200683EC4 = {
 			isa = PBXGroup;
 			children = (
+				84AD86742433745300A7572B /* transfer.storyboard */,
+				84AD867124336BAA00A7572B /* Sloths! Duplicate.storyboard */,
 				842A2452242A8B5200683EC4 /* Sloths! */,
 				842A2469242A8B5A00683EC4 /* Sloths!Tests */,
 				842A2474242A8B5A00683EC4 /* Sloths!UITests */,
@@ -232,7 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AD867324336BAA00A7572B /* Sloths! Duplicate.storyboard in Resources */,
 				842A2460242A8B5A00683EC4 /* LaunchScreen.storyboard in Resources */,
+				84AD86752433745300A7572B /* transfer.storyboard in Resources */,
 				842A245D242A8B5A00683EC4 /* Assets.xcassets in Resources */,
 				842A245B242A8B5200683EC4 /* Main.storyboard in Resources */,
 			);
@@ -311,6 +319,14 @@
 				842A245F242A8B5A00683EC4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84AD867124336BAA00A7572B /* Sloths! Duplicate.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AD867224336BAA00A7572B /* Base */,
+			);
+			name = "Sloths! Duplicate.storyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
